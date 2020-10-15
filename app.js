@@ -4,8 +4,8 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
-server.listen(process.env.PORT || 3000, function(){
-    console.log('listing on 3000');
+server.listen(process.env.PORT || 5432, function(){
+    console.log('listing on 5432');
 });
 
 var shortId = require('shortid');
