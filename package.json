@@ -1,0 +1,19 @@
+{
+    "name": "NodejsServer",
+    "version": "0.0.0",
+    "description": "NodejsServer",
+    "main": "app.js",
+    "author": {
+        "name": "TM",
+        "email": ""
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql": "^2.18.1",
+        "shortid": "^2.2.2",
+        "socket.io": "^1.7.4"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}
