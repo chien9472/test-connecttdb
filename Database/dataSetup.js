@@ -11,10 +11,10 @@
     // }
 
     var config = {
-        host : 'localhost',
-        user : 'root',
-        password : '',
-        database : 'test',
+        host : 'ec2-54-160-18-230.compute-1.amazonaws.com',
+        user : 'nfehsbnxxefcgz',
+        password : 'e62451b410764a297d10da6cfcd72c51ebca24dece0edd2a0f95999b22ee0883',
+        database : 'd351egc2e4vu38',
     }
 
 
