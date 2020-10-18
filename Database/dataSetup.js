@@ -37,7 +37,7 @@
     
     this.addUser = function (user, color, callback) {
 
-        db.query("INSERT INTO users (username,password) VALUES (?,1)",[user,color], function (err, data) {
+        db.query("INSERT INTO users (id,username,password) VALUES (1,?,1)",[user,color], function (err, data) {
             if (err) { console.error(err); }
             
             callback(err, data);
