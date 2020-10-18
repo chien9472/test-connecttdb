@@ -11,10 +11,10 @@
     // }
 
     var config = {
-        host : 'ec2-75-101-232-85.compute-1.amazonaws.com',
-        user : 'apumfwxtqagijr',
-        password : '9c89090f232d9d780eb4339f64dd37fc16ebb2faaaf908990aaca3990c89703b',
-        database : 'd2rb8tqkehgloj',
+        host : '34.87.179.182',
+        user : 'chiennd',
+        password : '123456',
+        database : 'test',
     }
 
 
